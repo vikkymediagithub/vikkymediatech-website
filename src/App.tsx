@@ -1,10 +1,14 @@
 import './App.css'
+import Hero from './components/Hero'
+import Nav from './components/Nav'
 
 function App() {
 
   return (
     <>
-     <div className='text-3xl font-bold text-center'>Vikkymedia Technology</div>
+    <Nav />
+    <Hero />
+    
     </>
   )
 }
